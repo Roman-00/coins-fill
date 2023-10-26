@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "next/core-web-vitals",
+        "plugin:react-hooks/recommended"
+    ],
+    "rules": {
+        "no-console": "warn",
+        "no-debugger": "warn",
+        "indent": ["error", 4],
+        "quotes": [
+            "error", "single"
+        ],
+        "semi": ["error", "always"],
+        "key-spacing": [
+            "error",
+            {
+                "align": "value"
+            }
+        ]
+    }
+}
